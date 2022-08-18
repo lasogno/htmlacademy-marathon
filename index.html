@@ -5,53 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div>
-                <img src="src/images/logo.svg">
-                <span>SCANDI</span>
-            </div>
-            
-            <a href="#">О компании</a>
-            <a href="#">Портфолио</a>
-            <a href="#">Команда</a>
-            <a href="#">Как мы работаем</a>
-            <a href="#">Отзывы клиентов</a>
-            <a href="#">Оставить заявку</a>
-            <a href="#">+7 (981) 857-46-24</a>
-        </nav>
+        <div>
+            <a class="logo">
+              <img src="src/images/logo.png" width="25" height="25">
+               SCANDI
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#" class="nav-link">О компании</a></li>
+                    <li><a href="#" class="nav-link">Портфолио</a></li>
+                    <li><a href="#" class="nav-link">Команда</a></li>
+                    <li><a href="#" class="nav-link">Как мы работаем</a></li>
+                    <li><a href="#" class="nav-link">Отзывы клиентов</a></li>
+                    <li><a href="#" class="nav-link">Оставить заявку</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="phone">+7 (981) 857-46-24</a>
+        </div>
     </header>
+
     <main>
         <section class="main">
-            <h1>Поможем сделать вашу квартиру уютнее</h1>
-            <p>Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку</p>
-            <a href="#">Оставить заявку</a>
+            <div class="promo">
+                <h1 class="main-heading">Поможем сделать вашу квартиру уютнее</h1>
+                <p class="promo-description">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку</p>
+                <a href="#form" class="button">Оставить заявку</a>
+            </div>
         </section>
         <section class="about">
-            <h2>О нас</h2>
+            <h2 class="section-title">О нас</h2>
             <img src="src/images/about-page.jpg" alt="Сервировка стола">
             <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, уделяя внимание мельчайшим деталям — вот то, что по-настоящему вдохновляет дизайнеров нашей студии.</p>
             <p>Наш коллектив сделает все, чтобы после сотрудничества с нами, Вам было приятно сказать: « Да! Это именно то, что действительно достойно моего дома!»</p>
         </section>
-        <aside>
-            <h3>5<br>лет опыта</h3>
-            <h3>100<br>проектов</h3>
-            <h3>10<br>наград</h3>
-        </aside>
+        <section class="profits">
+            <ul>
+                <li class="metrics"><span class="font-size-50">5</span><br>лет опыта</li>
+                <li class="metrics"><span class="font-size-50">100</span><br>проектов</li>
+                <li class="metrics"><span class="font-size-50">10</span><br>наград</li>
+            </ul>
+        </section>
         <section class="portfolio">
-            <h2>Наши работы</h2>
+            <h2 class="section-title">Наши работы</h2>
           <img src="src/images/mainbedrooom.jpg" alt="Спальня в бохо-стиле">
           <img src="src/images/kitchen.jpg" alt="Светлая кухня с островком">
-          <img src="src/images/aving-room.jpg" alt="Гостиная с цветами">
+          <img src="src/images/living-room.jpg" alt="Гостиная с цветами">
           <img src="src/images/bathroom.jpg" alt="Необычная ванная в пастельных тонах">
-          <a href="#">Смотреть еще</a>
+          <a href="#" class="other-photos-link">Смотреть еще</a>
         </section>
-        <section class="team-and-works">
-            <div class="team">
-                <h2>Команда</h2>
-                <div class="team-photos">
+            <section class="team">
+                <h2 class="section-title">Команда</h2>
                 <figure>
                     <img src="src/images/photo1.jpg" alt="Дизайнер Маша">
                     <figcaption>Это Маша, наш главный дизайнер. Она отвечает за дизайн-проект, приезжает к вам домой, общается
@@ -69,52 +76,42 @@
                         с клиентами и точно знает,
                         как обустроить дом так, чтобы вам понравилось.</figcaption>
                 </figure>
-            </div>
-            </div>
-            <div class="how-we-work">
-                <h2>Как мы работаем</h2>
-                <div>
-                    1<p>Знакомимся, выезжаем
-                        на объект, утверждаем концепцию, подписываем договор.</p>
-                </div>
-                <div>
-                    2<p>Подбираем мебель, текстиль, аксессуары. Делаем 3D-
-                        визуализацию.</p>
-                </div>
-                <div>
-                    3<p>Находим нужные магазины, помогаем с доставкой
-                        и оплатой товаров.</p>
-                </div>
-                <div>
-                    4<p>Воплощаем проект в жизнь:
-                        расставляем мебель и цветы, вешаем шторы, находим места для мелочей</p>
-                    </div>
-            </div>
-        </section>
+            </section>
+            <section class="how-we-work">
+                <h2 class="section-title">Как мы работаем</h2>
+                <ol>
+                    <li>Знакомимся, выезжаем
+                        на объект, утверждаем концепцию, подписываем договор.</li>
+                    <li>Подбираем мебель, текстиль, аксессуары. Делаем 3D-
+                        визуализацию.</li>
+                    <li>Находим нужные магазины, помогаем с доставкой
+                        и оплатой товаров.</li>
+                    <li>Воплощаем проект в жизнь:
+                        расставляем мебель и цветы, вешаем шторы, находим места для мелочей</li>
+                </ol>
+                </section>
         <article class="reviews">
-            <h2>Отзывы</h2>
-            <p>«Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.</p>
-             <p>Работа шла быстро, было очень приятно общаться и взаимодествовать
-                с сотрудниками. Не ожидала, что это будет так легко!</p>
-            <p>Буду советовать и своим друзьям к вам обращаться!»</p>
+            <h2 class="section-title">Отзывы</h2>
+            <q>Восторг! Спасибо, за комфортную жизнь. Очень рада, что выбрала вашу студию для украшения своего дома.Работа шла быстро, было очень приятно общаться и взаимодествовать
+                с сотрудниками. Не ожидала, что это будет так легко!Буду советовать и своим друзьям к вам обращаться!</q>
             <p>АННА БЕЛОВСКАЯ</p>
             <img src="src/images/review1.jpg" alt="Отзыв - красивая, светлая гостиная">
             <img src="src/images/review2.jpg" alt="Отзыв - стильная кухня с барной стойкой">
         </article>
-        <section class="apply">
+        <section class="form">
             <form>
-                <h2>Оставить заявку</h2>
-                <p>Оставьте свои контакты. Менеджер перезвонит
+                <h2 class="section-title form-title">Оставить заявку</h2>
+                <p class="form-description">Оставьте свои контакты. Менеджер перезвонит
                     в удобное вам время и ответит на все вопросы.</p>
-                    <label>
+                    <label class="form-inputs">
                         Ваше имя
                         <input type="text" name="name">
                       </label>
-                      <label>
+                      <label class="form-inputs">
                         Введите телефон
                         <input type="tel" name="name">
                       </label>
-                      <button>Оставить заявку</button>
+                      <button class="button">Оставить заявку</button>
                 </form>
             <img src="src/images/map.png">
         </section>

@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../src/fonts/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../src/fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    background: #EFE6E4;
+    color: #533738;
+}
+
+.main-heading {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #533738;
+    background: #CC8B86;
+    text-decoration: none;
+    border: none;
+}
+
+.promo {
+    background-image: url(../src/images/main-bg1.jpg);
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #533738;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #533738;
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.form-title {
+    color: #FFFFFF;
+}
+
+.form-description {
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.form-inputs {
+    color: #F6EDE9;
+}
+
+.font-size-50 {
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.metrics {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.profits {
+    background: #8D7370;
+}
+
+.other-photos-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #533738;
+}
+
+.other-photos-link::after {
+    content: url(../src/images/arrow.svg);
+}
+
+.team, .how-we-work {
+    background: #E2C4BA;
+}
+
+.form {
+    background: #8D7370;
+}
