@@ -16,6 +16,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -38,10 +40,13 @@ body {
     background: #CC8B86;
     text-decoration: none;
     border: none;
+    padding: 25px 67px;
 }
 
 .promo {
     background-image: url(../src/images/main-bg1.jpg);
+    background-repeat: no-repeat;
+    height: 715px;
 }
 
 .nav-link {
@@ -84,6 +89,7 @@ body {
     font-weight: 400;
     font-size: 50px;
     line-height: 62px;
+    margin-bottom: 20px;
 }
 
 .metrics {
@@ -108,6 +114,7 @@ body {
 
 .other-photos-link::after {
     content: url(../src/images/arrow.svg);
+    padding-left: 10px;
 }
 
 .team, .how-we-work {
@@ -117,3 +124,277 @@ body {
 .form {
     background: #8D7370;
 }
+
+.promo {
+    margin-bottom: 65px;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 14px;
+    max-height: 25px;
+    max-width: 1200px;
+    margin-left: 98px;
+    margin-bottom: 113px;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-links li {
+    display: block;
+    margin: 0 auto;
+    padding-right: 20px;
+}
+
+.header-links li a {
+    padding: 5px;
+}
+
+.header-links li:last-child {
+    padding: 0;
+}
+
+.main {
+    max-width: 534px;
+    margin-left: 184px;
+}
+
+.main-heading {
+    margin-bottom: 20px;
+}
+
+.promo-description {
+    height: 90px;
+    margin-bottom: 48px;
+}
+
+.about-heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-container {
+    display: flex;
+    margin-left: 182px;
+    margin-right: 182px;
+    gap: 63px;
+    padding-bottom: 4px;
+}
+
+.about-text {
+    align-self: baseline;
+}
+
+.paragraph-about {
+    margin: 0px;
+    margin-bottom: 30px
+}
+
+.profits-list {
+    display: flex;
+    justify-content: space-between;
+    height: 273px;
+    align-items: center;
+    margin-left: 142px;
+    margin-right: 182px;
+}
+
+.metrics {
+    display: block;
+    text-align: center;
+}
+
+.portfolio {
+    display: grid;
+    margin: 65px 100px;
+    width: 1200px;
+    row-gap: 7px;
+}
+
+.portfolio-heading {
+    margin-top: 0;
+}
+
+.images-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 20px;
+    margin-bottom: 31px;
+}
+
+.other-photos-link {
+    text-align: center; 
+}
+.team-heading {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.team-container {
+    display: flex;
+    margin-right: 182px;
+    margin-left: 182px;
+    gap: 38px;
+}
+
+.team-member {
+    align-self: baseline;
+    margin: 0;
+    padding: 0;
+    margin-top: 8px;
+}
+
+.process-heading {
+    margin-left: 512px;
+    padding-bottom: 10px;
+}
+
+.process-list {
+    display: flex;
+    padding-bottom: 80px;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.process-point {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+    width: 280px;
+    position: relative;
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.process-list-radius{
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #8D7370;;
+    margin:auto;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+.review-heading {
+    margin-left: 615px;
+    margin-top: 64px;
+}
+
+.process-list-radius-conteiner{
+    display:block;
+    margin: 0 auto;
+}
+
+.review-container {
+    display: flex;
+    position: relative;
+    max-width: 1056px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.review-images, .review-text {
+    flex-basis: 407px;
+    margin: 0;
+}
+
+.arrow-left {
+    position: absolute;
+    top: 243px;
+    left: 10px;
+}
+
+.arrow-right {
+    position: absolute;
+    top: 243px;
+    right: 10px;
+}
+
+.living-room-image {
+    margin-bottom: 16px;
+}
+
+.inner-review-author {
+    margin-top: 20px;
+    text-emphasis: none;
+}
+
+.reviews {
+    margin-bottom: 60px;
+}
+
+.form {
+    display: flex;
+    margin: 0 auto; 
+    padding-left: 181px;
+    gap: 20px;
+}
+
+.form-inputs {
+    border-bottom: 1px solid red;
+    outline: none;
+}
+
+.form-row {
+    margin-bottom: 0;
+    color: #F6EDE9;
+    width: 508px;
+ }
+.form-inner {
+    max-width: 508px;
+}
+
+ .form-row input[type="text"], .form-row input[type="tel"]{
+    width: 490px;
+    padding: 0 10px;
+    line-height: 0;
+    border-width: 0;
+    border-top: 1px solid #F6EDE9;
+    outline: none;
+    background: transparent;
+    background-size: 8px 20px;
+    color: #F6EDE9;
+    margin-bottom: 15px;
+ }
+
+ .submit {
+    margin-top: 3px;
+    width: 309px;
+    text-align: center;
+ }
+
+ .form-title {
+    margin-top: 50px;
+    margin-bottom: 20px;
+ }
+
+ .form-description {
+    margin-bottom: 45px;
+ }
+
+ .main-footer {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 35px;
+ }
+
+ .address {
+    margin-left: 39px;
+ }
